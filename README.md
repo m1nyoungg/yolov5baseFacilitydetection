@@ -43,7 +43,7 @@ $ conda activate gpu3090
 #tensorflow-gpu 2.4.0 버전 설치
 pip install tensorflow-gpu==2.4.0   ->>>>>>>>>requirement로''''''''''
 
-
+```
 
 # yolov5baseFacilitydetection
 
