@@ -48,7 +48,7 @@ $ conda activate gpu3090
 
 ``` python
 #tensorflow 2.4.0 버전 설치
-!pip install tensorflow==2.4.0
+pip install tensorflow==2.4.0
 
 #tensorflow-gpu 2.4.0 버전 설치
 pip install tensorflow-gpu==2.4.0   
