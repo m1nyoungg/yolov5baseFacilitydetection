@@ -20,9 +20,10 @@ $ sudo sh cuda_11.0.3_450.51.06_linux.run
 
 ```bash
 #변수 경로설정
+
 vim ~/.bashrc
-# export PATH=/usr/local/cuda-9.0/bin:$PATH
-# export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH
+# export PATH=/usr/local/cuda-11.0/bin:$PATH
+# export LD_LIBRARY_PATH=/usr/local/cuda-11.0/lib64:$LD_LIBRARY_PATH
 ```
 #cuDNN설치
 ????
