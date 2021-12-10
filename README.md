@@ -23,13 +23,13 @@ https://developer.nvidia.com/rdp/cudnn-download 에서 8.0 설치
 
 ```bash
 $ tar -xzvf cudnn-11.0-linux-x64-v8.0.2.39.tgz
-$ sudo cp cuda/include/cudnn*.h /usr/local/cuda-11.0/include
-$ sudo cp cuda/lib64/libcudnn* /usr/local/cuda-11.0/lib64
-$ sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda-11.0/lib64/libcudnn*
+$ sudo cp cuda/include/cudnn*.h /usr/local/cuda/include
+$ sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
+$ sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda/lib64/libcudnn*
 ```
 
 ### STEP 02 anaconda install
-#가상환경 설정을 위해 아나콘다 설치 
+#아나콘다프롬프트 실행을 위해 아나콘다 설치 
 https://www.anaconda.com/products/individual
 ```bash
 $ conda create -n gpu3090 python=3.? 
