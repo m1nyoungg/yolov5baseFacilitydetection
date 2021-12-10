@@ -3,6 +3,7 @@
 그래픽 드라이버가 450.36.06 버전 이상시 진행
 
 ### STEP 01 CUDA 11.0, CUDnn 8.0 install
+CUDA
 ```bash
  #cuda 설치
 $ wget https://developer.download.nvidia.com/compute/cuda/11.0.3/local_installers/cuda_11.0.3_450.51.06_linux.run
@@ -15,7 +16,7 @@ vim ~/.bashrc
 # export LD_LIBRARY_PATH=/usr/local/cuda-11.0/lib64:$LD_LIBRARY_PATH
 ```
 
-#cuDNN설치
+CUDnn
 https://developer.nvidia.com/rdp/cudnn-download 에서 8.0 설치
 
 
