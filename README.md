@@ -26,9 +26,16 @@ vim ~/.bashrc
 # export LD_LIBRARY_PATH=/usr/local/cuda-11.0/lib64:$LD_LIBRARY_PATH
 ```
 #cuDNN설치
-????
+https://developer.nvidia.com/rdp/cudnn-download 에서 8.0 설치
 
-(내컴터 파이썬 버전 확인 필요, 다돌아가면 봄)
+```bash
+$ tar -xzvf cudnn-x.x-linux-x64-v8.x.x.x.tgz
+$ sudo cp cuda/include/cudnn*.h /usr/local/cuda/include
+$ sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
+$ sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda/lib64/libcudnn*
+```
+
+
 #gpu3090의 이름으로 python 3.?버전의 아나콘다 가상환경 생성
 
 ```bash
