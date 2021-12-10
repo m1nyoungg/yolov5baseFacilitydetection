@@ -1,4 +1,4 @@
-﻿# yolov5baseFacilitydetection
+﻿# background requirement 
  
  
  this project is for the hackton
@@ -9,7 +9,6 @@ $ git clone https://github.com/ultralytics/yolov5
 $ cd yolov5
 $ pip install -r requirements.txt
 ```
-# yolov5baseFacilitydetection
 #드라이버가 455버전 이상
 
 #anaconda prompt 실행
@@ -44,6 +43,9 @@ $ conda activate gpu3090
 #tensorflow-gpu 2.4.0 버전 설치
 pip install tensorflow-gpu==2.4.0   ->>>>>>>>>requirement로''''''''''
 
+
+
+# yolov5baseFacilitydetection
 
 #학습코드
 $ python train.py --img 608 --batch 8 --epochs 50 --data data/coco128.yaml --cfg models/yolov5m.yaml --weights weights/yolov5m.pt
