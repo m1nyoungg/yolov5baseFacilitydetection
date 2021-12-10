@@ -17,6 +17,7 @@ vim ~/.bashrc
 ```
 
 cuDNN
+
 https://developer.nvidia.com/rdp/cudnn-download 에서 8.0 설치
 
 
