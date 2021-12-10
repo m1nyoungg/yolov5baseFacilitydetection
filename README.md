@@ -46,7 +46,7 @@ pip install tensorflow-gpu==2.4.0   ->>>>>>>>>requirement로''''''''''
 ```
 
 # yolov5baseFacilitydetection
-
+```
 #학습코드
 $ python train.py --img 608 --batch 8 --epochs 50 --data data/coco128.yaml --cfg models/yolov5m.yaml --weights weights/yolov5m.pt
 
