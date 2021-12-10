@@ -2,7 +2,7 @@
  해당 프로젝트는 CUDA 10.2에서 진행되었지만, 심사용 컴퓨터 환경에 맞춰 11.0으로 세팅함. 
 그래픽 드라이버가 450.36.06 버전 이상시 진행
 
-### STEP 01 CUDA 11.0, CUDnn 8.0 install
+### STEP 01 CUDA 11.0, cuDNN 8.0 install
 CUDA
 ```bash
  #cuda 설치
@@ -16,7 +16,7 @@ vim ~/.bashrc
 # export LD_LIBRARY_PATH=/usr/local/cuda-11.0/lib64:$LD_LIBRARY_PATH
 ```
 
-CUDnn
+cuDNN
 https://developer.nvidia.com/rdp/cudnn-download 에서 8.0 설치
 
 
