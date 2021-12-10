@@ -2,7 +2,7 @@
  해당 프로젝트는 CUDA 10.2에서 진행되었지만, 프로젝트 취지에 맞춰 11.0으로 세팅함. 
 #드라이버가 450.36.06버전 이상시 진행
 
-#Step 01 CUDA 11.0, CUDnn 8.0 install
+# Step 01 CUDA 11.0, CUDnn 8.0 install
 ```bash
  #cuda 설치
 $ wget https://developer.download.nvidia.com/compute/cuda/11.0.3/local_installers/cuda_11.0.3_450.51.06_linux.run
