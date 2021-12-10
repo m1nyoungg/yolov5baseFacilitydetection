@@ -2,7 +2,7 @@
  해당 프로젝트는 CUDA 10.2에서 진행되었지만, 심사용 컴퓨터 환경에 맞춰 11.0으로 세팅함. 
 그래픽 드라이버가 450.36.06 버전 이상시 진행
 
-### Step 01 CUDA 11.0, CUDnn 8.0 install
+### STEP 01 CUDA 11.0, CUDnn 8.0 install
 ```bash
  #cuda 설치
 $ wget https://developer.download.nvidia.com/compute/cuda/11.0.3/local_installers/cuda_11.0.3_450.51.06_linux.run
@@ -35,7 +35,7 @@ $ conda create -n gpu3090 python=3.?
 $ conda activate gpu3090
 ```
 
-### Step 03 Torch and python requirement install
+### STEP 03 Torch and python requirement install
 ``` python
 #추가 토치환경 설치
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f 
